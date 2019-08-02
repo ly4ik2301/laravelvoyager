@@ -34,7 +34,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
 
-{!! menu('main','bootstrap') !!}
+                {!! menu('main','bootstrap') !!}
 
 
                     <!-- Right Side Of Navbar -->
