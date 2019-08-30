@@ -19,7 +19,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/parse/onliner_catalog','ParserController@getCatalog');
-
+Route::get('/parse','ParserController@getAll');
+Route::get('parse/category/{id}','ParserController@getOne');
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
